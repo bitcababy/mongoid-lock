@@ -1,3 +1,5 @@
-module MongoidLock
-  VERSION = "0.0.1"
+module Mongoid
+  module Lock
+    VERSION = "0.0.1"
+  end
 end
