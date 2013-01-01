@@ -3,6 +3,7 @@ begin
 rescue LoadError
 end
 require 'rspec'
+require 'state_machine'
 
 require File.expand_path '../../lib/mongoid_lock', __FILE__
 
